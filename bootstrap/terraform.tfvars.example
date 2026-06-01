@@ -1,0 +1,13 @@
+########################################
+# Copy to terraform.tfvars and fill in.
+########################################
+
+aws_region   = "us-east-1"
+project_name = "docker-swarm"
+
+# Must be globally unique across all of AWS.
+state_bucket_name = "docker-swarm-tfstate-CHANGE-ME"
+lock_table_name   = "terraform-locks"
+
+# The GitHub repo that runs the workflow, as owner/repo.
+github_repo = "your-org/your-repo"
